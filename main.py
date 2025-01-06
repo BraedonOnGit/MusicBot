@@ -177,7 +177,6 @@ async def skip(ctx):
 @bot.command()
 async def help(ctx):
     help_message = """
-    ```
     Music Bot Commands:
     - !join: Makes the bot join your current voice channel.
     - !leave: Makes the bot leave the current voice channel.
@@ -187,7 +186,7 @@ async def help(ctx):
     - !help: Displays this list of commands and their descriptions.
 
     Note: Commands can only be used in the #music-bot channel.
-    ```
+    [Link to Repository](https://github.com/BraedonOnGit/MusicBot)
     """
     await ctx.send(help_message)
 
